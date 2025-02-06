@@ -59,7 +59,7 @@ export const Hero: React.FC<HeroProps> = ({ loaded }) => {
         >
           <ParallaxText baseVelocity={-2}>WELLNESS • FOREVER • YOUNG •</ParallaxText>
           <div className="h-8" />
-          <ParallaxText baseVelocity={2}>SUSTAINABLE • FASHION • LIFESTYLE •</ParallaxText>
+          <ParallaxText baseVelocity={2}>Aayush518 • Aayush518 • Aayush518 •</ParallaxText>
         </motion.div>
         
         <BottomBar />
