@@ -11,9 +11,9 @@ interface NavigationProps {
 export const Navigation: React.FC<NavigationProps> = ({ scrolled, onMenuOpen }) => {
   return (
     <nav className={`fixed w-full z-40 transition-all duration-500 ${
-      scrolled ? 'py-4 bg-white/90 backdrop-blur-md shadow-lg' : 'py-6'
+      scrolled ? 'py-3 sm:py-4 bg-white/90 backdrop-blur-md shadow-lg' : 'py-4 sm:py-6'
     }`}>
-      <div className="max-w-[2000px] mx-auto px-6 flex justify-between items-center">
+      <div className="max-w-[2000px] mx-auto px-4 sm:px-6 flex justify-between items-center">
         <Logo />
         <div className="hidden md:flex items-center gap-12">
           <div className="flex items-center gap-8">
@@ -40,4 +40,4 @@ export const Navigation: React.FC<NavigationProps> = ({ scrolled, onMenuOpen }) 
       </div>
     </nav>
   );
-};
+}
