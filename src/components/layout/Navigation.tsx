@@ -18,9 +18,9 @@ export const Navigation: React.FC<NavigationProps> = ({ scrolled, onMenuOpen }) 
         <div className="hidden md:flex items-center gap-12">
           <div className="flex items-center gap-8">
             <NavLink href="#">NEW ARRIVALS</NavLink>
-            <div className="w-2 h-2 rotate-45 bg-orange-400"></div>
+            <div className="w-1 h-1 rounded-full bg-orange-400 opacity-50"></div>
             <NavLink href="#">COLLABORATION</NavLink>
-            <div className="w-2 h-2 rotate-45 bg-blue-700"></div>
+            <div className="w-1 h-1 rounded-full bg-blue-700 opacity-50"></div>
             <NavLink href="#">ABOUT US</NavLink>
           </div>
           <button 
