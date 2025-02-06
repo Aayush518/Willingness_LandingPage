@@ -11,6 +11,7 @@ export default {
         'spin-reverse-slower': 'spin-reverse 12s linear infinite',
         'float': 'float 6s ease-in-out infinite',
         'pulse': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
       keyframes: {
         fadeIn: {
@@ -40,6 +41,7 @@ export default {
       },
       blur: {
         '4xl': '100px',
+        '5xl': '160px',
       },
     },
   },
